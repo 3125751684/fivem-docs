@@ -1,10 +1,10 @@
 ---
-title: 事件列表
+title: List of events
 weight: 543
 layout: single
 ---
 
-**所有非资源特定事件的列表。**
+**A list of all non-resource-specific events.**
 
 - [gameEventTriggered](./gameEventTriggered)
 - [onClientResourceStart](./onClientResourceStart)

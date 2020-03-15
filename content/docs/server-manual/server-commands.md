@@ -55,45 +55,45 @@ description: >
 
 ### `status`
 
-{{% alert theme="info" %}}这是由 **rconlog** 资源提供的。{{% /alert %}}
+{{% alert theme="info" %}}This is provided by the **rconlog** resource. {{% /alert %}}
 
-显示具有其主要标识符，服务器ID，名称，端点和ping的玩家列表。
+Shows a list of players with their primary identifier, server ID, name, endpoint, and ping.
 
-示例：
+Example:
 
     status
 
 ### `sv_maxClients [newValue]`
 
-一个控制台变量，它指定服务器通常可以拥有的最大客户端数，为1到64之间的整数。
+A console variable that specifies the maximum amount of clients that the server can normally have, as an integer from 1 to 64.
 
 ### `sv_endpointPrivacy [newValue]`
 
-一个布尔变量，如果为true，则从服务器输出的公共报告中隐藏玩家IP地址。
+A boolean variable that, if true, hides player IP addresses from public reports output by the server.
 
 ### `sv_hostname [newValue]`
 
-包含服务器主机名的字符串变量。
+A string variable that contains the server host name.
 
 ### `sv_authMaxVariance [newValue]`
 
-**Variance** 是针对给定提供者（即“ steam”，“ ip”或“ ros”）的用户ID更改的可能性。
+**Variance** is how likely the user's id will change for a given provider (i.e. 'steam', 'ip', or 'ros').
 
-一个控制台变量，为1-5的整数（默认值1）； 从最小到最有可能改变。
+A console variable as an integer from 1-5 (default 1); from least to most likely to change.
 
 ### `sv_authMinTrust [newValue]`
 
-**信任**是指用户的身份 _不太可能_ 被恶意客户端欺骗。
+**Trust** is how _unlikely_ it is for the user's identity to be spoofed by a malicious client.
 
-一个控制台变量，它是1-5之间的整数（默认值为5）；从最不可信到最可信（5是外部三方身份验证等方法）。
+A console variable as an integer from 1-5 (default 5); from least to most trustworthy (5 being a method such as external three-way authentication).
 
 ### `clientkick [id] [reason]`
 
-{{% alert theme="info" %}}这是由**rconlog**资源提供的。{{% /alert %}}
+{{% alert theme="info" %}}This is provided by the **rconlog** resource. {{% /alert %}}
 
-基于指定的原因，从服务器中踢出具有指定服务器ID（如[status](#status "wikilink")中所示）的客户端。
+Kicks the client with the specified server ID (as seen in [status](#status "wikilink")) from the server, for the stated reason.
 
-示例：
+Example:
 
     clientkick 43 You're a superstitious idiot!
 

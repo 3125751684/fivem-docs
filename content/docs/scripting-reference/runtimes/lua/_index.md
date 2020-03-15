@@ -1,9 +1,9 @@
 ---
-title: Lua 中的函数参考
+title: Lua function reference
 weight: 513
 hidden: false
 layout: single
 ---
 
-- [客户端函数](/docs/scripting-reference/runtimes/lua/client-functions)
-- [服务端函数](/docs/scripting-reference/runtimes/lua/server-functions)
+- [Client side functions](/docs/scripting-reference/runtimes/lua/client-functions)
+- [Server side functions](/docs/scripting-reference/runtimes/lua/server-functions)

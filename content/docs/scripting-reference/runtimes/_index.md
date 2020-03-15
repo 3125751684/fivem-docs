@@ -1,9 +1,9 @@
 ---
-title: 特定运行环境参考
+title: Runtime-specific references
 weight: 506
 layout: single
 ---
 
-- [Lua 中的函数](/docs/scripting-reference/runtimes/lua)
-- [JavaScript 中的函数](/docs/scripting-reference/runtimes/javascript)
-- [C# 中的函数](/docs/scripting-reference/runtimes/csharp)
+- [Functions in Lua](/docs/scripting-reference/runtimes/lua)
+- [Functions in JavaScript](/docs/scripting-reference/runtimes/javascript)
+- [Functions in C#](/docs/scripting-reference/runtimes/csharp)

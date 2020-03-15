@@ -3,22 +3,22 @@ title: onResourceStarting
 weight: 548
 ---
 
-在资源启动之前调用。可以取消此事件以阻止此资源启动。
+Called before a resource starts. This event can be canceled to prevent this resource from starting.
 
-参数
+Parameters
 ----------
 
 ```
 string resourceName
 ```
 
-- resourceName: 试图启动的资源的名称。
+- resourceName: The name of the resource that is trying to start.
 
-示例
+Examples
 --------
-此示例阻止任何名为 'pineapple' 的资源启动。
+This example prevents any resource called 'pineapple' from starting.
 
-##### Lua 示例：
+##### Lua Example:
 ```lua
 AddEventHandler('onResourceStarting', function(resourceName)
   if resourceName == 'pineapple' then
@@ -27,7 +27,7 @@ AddEventHandler('onResourceStarting', function(resourceName)
 end)
 ```
 
-##### C\# 示例：
+##### C\# Example:
 ```csharp
 // in the class constructor
 EventHandlers["onResourceStarting"] += new Action<string>(OnResourceStarting);
@@ -42,7 +42,7 @@ private void OnResourceStarting(string resourceName)
 }
 ```
 
-##### JavaScript 示例：
+##### JavaScript Example:
 ```js
 on("onResourceStarting", (resourceName) => {
   if (resourceName === "pineapple") {

@@ -3,22 +3,22 @@ title: onClientResourceStart
 weight: 545
 ---
 
-在资源启动后调用。
+Called after a resource starts.
 
-参数
+Parameters
 ----------
 
 ```
 string resourceName
 ```
 
-- resourceName: 启动的资源的名称。
+- resourceName: The name of the resource that started.
 
-示例
+Examples
 --------
-此示例在启动时打印它所在的资源的名称。
+This example prints the name of the resource it was in, upon start.
 
-##### Lua 示例：
+##### Lua Example:
 ```lua
 AddEventHandler('onClientResourceStart', function (resourceName)
   if(GetCurrentResourceName() ~= resourceName) then
@@ -28,7 +28,7 @@ AddEventHandler('onClientResourceStart', function (resourceName)
 end)
 ```
 
-##### C\# 示例：
+##### C\# Example:
 ```csharp
 // In class constructor
 EventHandlers["onClientResourceStart"] += new Action<string>(OnClientResourceStart);
@@ -43,7 +43,7 @@ private void OnClientResourceStart(string resourceName)
 }
 ```
 
-##### JavaScript 示例：
+##### JavaScript Example:
 ```js
 on("onClientResourceStart", (resourceName) => {
   if(GetCurrentResourceName() != resourceName) {

@@ -1,5 +1,5 @@
 ---
-title: Lua 中的函数列表
+title: List of functions in Lua
 toc_hide: true
 layout: single
 ---

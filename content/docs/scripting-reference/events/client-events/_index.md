@@ -1,28 +1,28 @@
 ---
-title: 客户端事件
+title: Client events
 weight: 541
 layout: single
 ---
 
-**可以在脚本中使用的客户端事件列表。**
+**A list of client side events you can use in your scripts.**
 
-核心事件
+Core events
 -----------
-这些事件是FiveM的一部分，不需要任何资源。
+These events are part of FiveM and do not require any resource.
 
 - [onClientResourceStart](../list/onClientResourceStart)
 - [onClientResourceStop](../list/onClientResourceStop)
 - [populationPedCreating](../list/populationPedCreating)
 
-spawnmanager 事件
+spawnmanager events
 -------------------
-这些事件是[spawnmanager](/docs/resources/spawnmanager)资源的一部分。
+These events are part of the [spawnmanager](/docs/resources/spawnmanager) resource.
 
 - [playerSpawned](/docs/resources/spawnmanager/events/playerSpawned)
 
-mapmanager 事件
+mapmanager events
 -----------------
-这些事件是[mapmanager](/docs/resources/mapmanager)资源的一部分。
+These events are part of the [mapmanager](/docs/resources/mapmanager) resource.
 
 - [onClientMapStart](/docs/resources/mapmanager/events/onClientMapStart)
 - [onClientGameTypeStart](/docs/resources/mapmanager/events/onClientGameTypeStart)
@@ -30,23 +30,23 @@ mapmanager 事件
 - [onClientGameTypeStop](/docs/resources/mapmanager/events/onClientGameTypeStop)
 - [getMapDirectives](/docs/resources/mapmanager/events/getMapDirectives)
 
-baseevents 事件
+baseevents events
 -----------------
-这些事件是[baseevents](/docs/resources/baseevents)资源的一部分。
+These events are part of the [baseevents](/docs/resources/baseevents) resource.
 
 - [onPlayerDied](/docs/resources/baseevents/events/onPlayerDied)
 - [onPlayerKilled](/docs/resources/baseevents/events/onPlayerKilled)
 
-sessionmanager 事件
+sessionmanager events
 ---------------------
-这些事件是[sessionmanager](/docs/resources/sessionmanager)资源的一部分。
+These events are part of the [sessionmanager](/docs/resources/sessionmanager) resource.
 
 - [playerActivated](/docs/resources/sessionmanager/events/playerActivated)
 - [sessionInitialized](/docs/resources/sessionmanager/events/sessionInitialized)
 
-chat 事件
+chat events
 -----------
-这些事件是[chat](/docs/resources/chat)资源的一部分。
+These events are part of the [chat](/docs/resources/chat) resource.
 
 - [chatMessage](/docs/resources/chat/events/chatMessage)
 - [chat:addMessage](/docs/resources/chat/events/chat-addMessage)

@@ -1,15 +1,15 @@
 ---
-title: 服务端事件
+title: Server events
 weight: 542
 layout: single
 ---
 
-**可以在脚本中使用的服务器端事件列表。**
+**A list of server side events you can use in your scripts.**
 
-核心事件
+Core events
 -----------
 
-这些事件是FiveM的一部分，不需要任何资源。
+These events are part of FiveM and do not require any resource.
 
 - [rconCommand](../list/rconCommand)
 - [playerDropped](../list/playerDropped)
